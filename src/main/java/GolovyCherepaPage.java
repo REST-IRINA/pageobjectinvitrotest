@@ -2,25 +2,26 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class GolovyCherepaPage {
-
     WebDriver driver;
+
 
     public GolovyCherepaPage(WebDriver driver) {
         this.driver = driver;
     }
-    private By AppointmentBlock = By.xpath("//div[@class='popup-block popup-block--pb70']");
-    private By UserSurnameField = By.xpath("//input[@name='enrollsurname']");
-    private By UserNameField = By.xpath("//input[@name='enrollName']");
-    private By DateAndTimeDiagnosticField = By.xpath("//input[@name='dateAndTimeDiagnostic']");
-    private By PhoneField = By.xpath("//input[@name='enrollPhone']");
-    private By MailField = By.xpath("//input[@name='enrollMail']");
-    private By DateAndTimeDiagnosticField = By.xpath("//input[@name='dateAndTimeDiagnostic']");
 
+    private By SubmitButton = By.xpath("//a[contains(@data-entity-id,'12912')]");
+    private By heading = By.xpath("//h1[contains(.,'Рентген головы')]");
 
+    public AppointmentPage clickSubmit() {
+        driver.findElement(SubmitButton).click();
+        return new AppointmentPage(driver);
+    }
 
-
-
-
+    public String GetHeadingText() {
+        return driver.findElement(heading).getText();
+    }
 
 
 }
+
+

@@ -9,10 +9,19 @@ public class RadiologyPage {
         this.driver = driver;
 
     }
-    private By RentgenLink = By.xpath("//a[@class='side-bar-second__link side-bar-second__link--icon side-bar__link--third'][contains(.,'Рентген')]");
+    private By rentgenLink = By.xpath("//a[@class='side-bar-second__link side-bar-second__link--icon side-bar__link--third'][contains(.,'Рентген')]");
+    private By heading = By.xpath("//h1[contains(.,'Медицинские услуги в Москве')]");
+
+
     public RentgenPage clickRentgen () {
-        driver.findElement(RentgenLink).click();
+        driver.findElement(rentgenLink).click();
         return new RentgenPage(driver);
     }
+
+    public String GetHeadingText() {
+        return driver.findElement(heading).getText();
+    }
+
+
 
 }
