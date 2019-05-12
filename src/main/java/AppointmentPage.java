@@ -10,12 +10,18 @@ public class AppointmentPage {
 
     private By UserSurnameField = By.xpath("//input[@name='enrollsurname']");
     private By UserNameField = By.xpath("//input[@name='enrollName']");
+    private By UserMidlNameField = By.xpath("//input[@placeholder='Ваше отчество']");
     private By DateAndTimeDiagnosticField = By.xpath("//input[@name='dateAndTimeDiagnostic']");
     private By PhoneField = By.xpath("//input[@name='enrollPhone']");
     private By MailField = By.xpath("//input[@name='enrollMail']");
     private By ConsentCheckbox = By.xpath("//label[@for='agree_dc_appoint']//span[@class='checkbox__item']");
     private By SubmitButton = By.xpath("//button[@class='btn-icon btn-icon--fill ripple js-button-submit']");
     private By LegalInfoline = By.xpath("//a[@class='link link--inv'][contains(.,'условиями предоставления услуг')]");
+    private By heading = By.xpath("//span[@class='service_name_blue'][contains(.,'Рентген черепа')]");
+
+    public String GetHeadingText() {
+        return driver.findElement(heading).getText();
+    }
 
     public AppointmentPage clickConsent() {
         driver.findElement(ConsentCheckbox).click();
@@ -29,6 +35,10 @@ public class AppointmentPage {
 
     public AppointmentPage typeUserName(String username) {
         driver.findElement(UserNameField).sendKeys(username);
+        return this;
+    }
+    public AppointmentPage typeUserMidlName(String userMidlName) {
+        driver.findElement(UserNameField).sendKeys(userMidlName);
         return this;
     }
 
@@ -58,7 +68,7 @@ public class AppointmentPage {
     }
 
 
-    public SuccessPage submit(String usersurname, String username, String dateandtimediagnostic, String phone, String mail) {
+    public SuccessPage submit(String usersurname, String username, String usermidlname, String dateandtimediagnostic, String phone, String mail) {
         this.typeUserSurname(usersurname);
         this.typeUserName(username);
         this.typeDateAndTimeDiagnostic(dateandtimediagnostic);
