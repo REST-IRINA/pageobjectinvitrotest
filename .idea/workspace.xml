@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6259b240-064a-44be-ab98-fcf76f314ca6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/RadiologyPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MainPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainPageTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,21 +19,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="460">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/MainPageTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/RadiologyPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+            <state relative-caret-position="272">
+              <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#755#756#0" expanded="true" />
-                <element signature="e#776#777#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/RentgenPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -43,36 +52,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/RadiologyPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="79" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="79" />
+            <state relative-caret-position="255">
+              <caret line="15" column="35" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#616#617#0" expanded="true" />
                 <element signature="e#676#677#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MainPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="12" column="24" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MainClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="45" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="9" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -104,7 +89,9 @@
         <option value="$PROJECT_DIR$/src/test/java/MainClassTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/MainClass.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RadiologyPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/MainPageTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RadiologyPageTest.java" />
       </list>
     </option>
   </component>
@@ -184,7 +171,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557655129391" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557678553727" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -203,7 +190,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MainPageTest">
+  <component name="RunManager" selected="JUnit.RadiologyPageTest">
     <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainClass" />
       <module name="pageobjectinvitrotest" />
@@ -230,8 +217,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RadiologyPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pageobjectinvitrotest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RadiologyPageTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RadiologyPageTest" />
         <item itemvalue="JUnit.MainPageTest" />
         <item itemvalue="Application.MainClass" />
         <item itemvalue="JUnit.MainPageTest.HealthServices" />
@@ -252,24 +249,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainPageTest - 2019.05.11 at 22h 46m 38s.xml">
-      <configuration name="MainPageTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainPageTest_HealthServices - 2019.05.11 at 22h 46m 56s.xml">
-      <configuration name="MainPageTest.HealthServices" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainPageTest_HealthServices - 2019.05.11 at 22h 48m 54s.xml">
-      <configuration name="MainPageTest.HealthServices" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainPageTest_HealthServices - 2019.05.11 at 23h 13m 38s.xml">
-      <configuration name="MainPageTest.HealthServices" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainPageTest_HealthServices - 2019.05.11 at 23h 17m 36s.xml">
-      <configuration name="MainPageTest.HealthServices" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MainPageTest_HealthServices - 2019.05.12 at 12h 03m 55s.xml">
-      <configuration name="MainPageTest.HealthServices" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MainPageTest - 2019.05.12 at 12h 09m 26s.xml">
       <configuration name="MainPageTest" configurationId="JUnit" />
     </history-entry>
@@ -282,12 +261,30 @@
     <history-entry file="MainPageTest - 2019.05.12 at 12h 58m 41s.xml">
       <configuration name="MainPageTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MainPageTest - 2019.05.12 at 13h 31m 05s.xml">
+      <configuration name="MainPageTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainPageTest - 2019.05.12 at 18h 40m 52s.xml">
+      <configuration name="MainPageTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainPageTest - 2019.05.12 at 19h 03m 13s.xml">
+      <configuration name="MainPageTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainPageTest - 2019.05.12 at 19h 25m 32s.xml">
+      <configuration name="MainPageTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainPageTest - 2019.05.12 at 19h 26m 35s.xml">
+      <configuration name="MainPageTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainPageTest - 2019.05.12 at 19h 27m 46s.xml">
+      <configuration name="MainPageTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30268458" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30268458" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -296,7 +293,35 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3611898" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24504249" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32880846" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.24220963" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven" order="7" weight="0.3294837" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30268458" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3611898" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -313,33 +338,6 @@
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven" order="7" weight="0.3294837" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29076087" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32880846" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
@@ -347,18 +345,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/AppointmentBlock.java" />
     <entry file="file://$PROJECT_DIR$/LICENSE">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AppointmentPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="87" column="24" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#138#139#0" expanded="true" />
-            <element signature="e#174#175#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GolovyCherepaPage.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -388,44 +374,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/RentgenPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SuccessPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#130#131#0" expanded="true" />
-            <element signature="e#166#167#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MainClassTest.java" />
     <entry file="file://$PROJECT_DIR$/../testselenium/testselenium/.gitattributes" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MainClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -436,20 +389,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MainPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/SuccessPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="24" />
+        <state relative-caret-position="204">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/RadiologyPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/AppointmentPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="60" column="123" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="123" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RadiologyPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="79" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="79" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/RadiologyPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#616#617#0" expanded="true" />
@@ -458,14 +448,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/MainPageTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/RentgenPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        <state relative-caret-position="340">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#755#756#0" expanded="true" />
-            <element signature="e#776#777#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MainPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1017#1018#0" expanded="true" />
+            <element signature="e#1045#1046#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RadiologyPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
